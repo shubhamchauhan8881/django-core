@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Daily Thoughts: </h1>
+
+    {% for i in thoughts %}
+        <p>Title:  {{ i.get_full_content }}</p>
+    {% endfor %}
+
+    <h1 style="color:red">hello   {{ MyName }} </h1>
+</body>
+</html>
