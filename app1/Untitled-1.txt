@@ -1,0 +1,38 @@
+
+
+
+MySQL 
+CREATE TABLE USER(
+    username varchar()
+)
+
+
+
+SQL => OOPS => MODEL
+
+
+MVT => MODEL | VIEW | TEMPLATE
+
+
+BASIC CLIENT/SERVER Architecture
+
+
+Client -> HTTP-Request -> SERVER
+SERVER -> HTTP-Resposnse -> CLIENT
+            i.e. one way communication
+
+
+Resposnse -> HTML, TEXT, JSON, XML
+            STATUS CODE ->  prest state of response
+
+
+REST_FRAMEWAOR -> JSON 
+
+Request (HTTP METHODS)  -> GET, POST, PUT, PATCH, DELETE
+                        -> django default ( GET, POST )
+        -> content_type 
+
+
+
+PROJECT ->  Text
+            APPS:  app1, API
